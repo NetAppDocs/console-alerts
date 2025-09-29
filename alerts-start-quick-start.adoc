@@ -1,0 +1,48 @@
+---
+sidebar: sidebar
+permalink: alerts-start-quick-start.html
+keywords: how to get started with bluexp alerts, alerts quick start, netapp, ontap, alert, capacity, performance, availability, security, protection, bluexp, bluexp alerts
+summary: Get started with ONTAP alerts in a few steps.
+---
+
+= Quick start for ONTAP alerts
+:hardbreaks:
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+Here's an overview of the steps needed to get started with ONTAP alerts. The links within each step take you to a page that provides more details.
+
+
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png[One] Review prerequisites 
+
+[role="quick-margin-para"]
+link:alerts-start-prerequisites.html[Ensure your environment meets these requirements].
+ 
+
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png[Two] Set up ONTAP alerts
+
+
+
+[role="quick-margin-para"]
+link:alerts-start-setup.html[Configure a Console agent in NetApp Console].
+
+
+
+
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png[Three] What's next?
+
+
+[role="quick-margin-para"]
+After you set up ONTAP alerts, here's what you might do next.
+
+[role="quick-margin-list"]
+* link:alerts-use-dashboard.html[View storage issues and potential risks on the Alerts list page].
+* link:alerts-use-alerts.html[View alert details in ONTAP System Manager].
+
+
+
+

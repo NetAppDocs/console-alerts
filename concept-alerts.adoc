@@ -1,0 +1,92 @@
+---
+sidebar: sidebar
+permalink: concept-alerts.html
+keywords: netapp, ontap, alert, capacity, performance, availability, security, protection, bluexp, NetApp Console alerts
+summary: View issues or potential risks in your NetApp ONTAP environment related to capacity, performance, availability, and security. You can drill into details using ONTAP System Manager.
+---
+
+= Learn about ONTAP alerts
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+View issues or potential risks in your NetApp on-premises ONTAP environments using the standard NetApp Console agent. You can drill into details using ONTAP System Manager.
+
+//NOTE: This documentation is provided as a technology preview. With this preview offering, NetApp reserves the right to modify offering details, contents, and timeline before General Availability.   
+
+== NetApp Console
+
+View ONTAP alerts in the NetApp Console.
+
+The NetApp Console provides centralized management of NetApp storage and data services across on-premises and cloud environments at enterprise grade. The Console is required to access and use NetApp data services. As a management interface, it enables you to manage many storage resources from one interface. Console administrators can control access to storage and services for all systems within the enterprise.
+ 
+You don’t need a license or subscription to start using the NetApp Console and you only incur charges when you need to deploy Console agents in your cloud to ensure connectivity to your storage systems or NetApp data services. However, some NetApp data services accessible from the Console are licensed or subscription-based.
+ 
+Learn more about the https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html[NetApp Console].
+
+== What you can do with ONTAP alerts 
+
+View ONTAP alerts to stay informed about risks or potential risk in your ONTAP storage system. You can see some non-EMS alerts and some EMS alerts. You can see information about these severities and impact areas: 
+
+* *Severities*: Critical, Warning, Informational
+* *Impact areas*: Capacity, Performance, Protection, Availability, Security, Configuration
+
+TIP: The Notifications option in the upper right of the NetApp Console UI monitors the status of operations that NetApp Console is performing to help you identify issues that you need to address. You can have these notifications sent to your email. The Notifications option does not include the alerts from ONTAP alerts. 
+
+== Benefits of monitoring ONTAP alerts
+
+Monitoring ONTAP alerts provides the following benefits:
+
+* Get alerts about your ONTAP storage across clusters.
+* View alerts in the same NetApp Console UI that you use for other services.
+* Drill into alerts on ONTAP clusters -- start from the NetApp Console and see details in ONTAP System Manager.
+
+
+== Cost 
+
+You can view ONTAP alerts with a NetApp ONTAP license.
+
+== Licensing 
+
+Viewing ONTAP alerts requires a NetApp ONTAP 9.10 or greater license.
+
+You do not need to have a trial license. 
+
+ONTAP alerts can be viewed in the NetApp Console standard (public) mode only.
+
+//NetApp alerts can be deployed in the NetApp Console standard (public), restricted, and private modes. 
+
+
+== How ONTAP alerts work
+
+
+ONTAP alerts is a core component of NetApp Console. ONTAP alerts monitors ONTAP clusters and receives alert data from ONTAP. 
+
+ONTAP alerts is available only in the NetApp Console SaaS environment. It is not available in a local Console agent UI. 
+
+== Supported systems and data sources
+
+Use ONTAP alerts to check on issues in the following systems and data sources.
+
+
+*Systems supported* 
+
+An on-premises ONTAP NAS or SAN system is supported. 
+
+Cloud Volumes ONTAP systems are not supported at this time. 
+
+//* Cloud Volumes ONTAP for AWS (using NFS and CIFS protocols)
+//* Cloud Volumes ONTAP for Azure (using NFS and CIFS protocols)
+
+
+*Data sources supported*
+
+View alerts regarding certain events that occur in ONTAP. They are a combination of EMS and metric-based alerts. 
+
+//For more details <link to detailed catalogue of all supported alerts>
+
+
+

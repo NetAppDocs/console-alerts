@@ -1,0 +1,74 @@
+---
+sidebar: sidebar
+permalink: alerts-faq.html
+keywords: alerts faq, alerts frequently asked questions, bluexp, bluexp alert
+summary: This NetApp alerts FAQ can help if you're just looking for a quick answer to a question.
+---
+
+= Frequently asked questions for NetApp alerts
+:hardbreaks:
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+This FAQ can help if you're just looking for a quick answer to a question about NetApp alerts.
+
+== Access to NetApp alerts
+
+*What's the NetApp alerts URL?*
+For the URL, in a browser, enter: https://console.netapp.com/[https://console.netapp.com/^] to access the NetApp Console. 
+
+*Do you need a license to use NetApp alerts?*
+
+Using NetApp alerts requires a NetApp ONTAP 9.10 or greater license. The license does not need to be entered in NetApp Console digital wallet. 
+
+You do not need to have a trial license for NetApp alerts.
+
+
+*How do you enable NetApp alerts?* 
+NetApp alerts does not require any enablement. The alerts option is automatically enabled on the NetApp Console left navigation. 
+
+To get going, when you use the Console agent, it will include the appropriate capabilities for NetApp alerts.
+
+
+**Does NetApp alerts available in standard, restricted, and private modes?**
+NetApp alerts can be deployed in the NetApp Console standard (public) only. 
+
+For an explanation about these modes across all NetApp Console services, refer to https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html[NetApp Console deployment modes^].
+
+**How are access permissions handled?**
+Only NetApp Console organization admins have the ability to initiate NetApp alerts and discover workloads (because this involves committing to usage of a resource). 
+
+Alerts are shown to logged in users depending on their access to the cluster's resource in that NetApp Console organization. 
+
+//https://docs.netapp.com/us-en/bluexp-setup-admin/concept-netapp-accounts.html[Learn about NetApp Console organizations].
+
+== View alerts
+
+**How long do I need to wait before I start getting alerts?**
+
+Wait a maximum of 15 minutes for initial discovery and after that a maximum of 5 minutes for alerts to appear. This varies from alert to alert.
+
+**Why can't I see the alerts for ONTAP using direct mode without the Console agent?*
+
+NetApp alerts is available only using the on-premises standard Console agent. Using the direct mode does not monitor the clusters and does not display the alerts. 
+
+**Why are some alerts disappearing from the Alerts list page?**
+
+The alerting feature keeps some alerts in an Active state and closes them after either the counter condition is met or a time period is reached. This varies from alert to alert. 
+
+To see all the alerts, select the Status column filter and select the Closed option.
+
+== Display of information
+
+**What device resolution is best?**
+The recommended device resolution for NetApp alerts is 1920x1080 or better. 
+
+**Which browser should I use?**
+Any modern browser will work. 
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+=== BlueXP alerts list page
+You can quickly identify ONTAP clusters that have low capacity or low performance, gauge the extent of availability, and identify security risks. You can view alerts related to capacity, performance, protection, availability, security, and configuration. 
+
+=== Alerts details
+You can drill into alert details and find recommendations. 
+
+=== View cluster details linked to ONTAP System Manager
+With BlueXP alerts, you can view alerts associated with your ONTAP storage environment and drill into the details that are linked to ONTAP System Manager.
+
+https://docs.netapp.com/us-en/bluexp-alerts/concept-alerts.html[Learn about BlueXP alerts].
+

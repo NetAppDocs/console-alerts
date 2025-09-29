@@ -1,0 +1,25 @@
+---
+sidebar: sidebar
+permalink: whats-new.html
+keywords: what's new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, ontap, bluexp, system manager
+summary: Learn what's new in ONTAP  alerts.
+---
+= What's new with ONTAP alerts
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Learn what's new in ONTAP alerts.
+
+// tag::whats-new[]
+== 06 October 2025 
+
+include::_whatsnew/2025-10-06.adoc[]
+
+
+== 07 October 2024
+include::_whatsnew/2024-10-07.adoc[]
+// end::whats-new[]

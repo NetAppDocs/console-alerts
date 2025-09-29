@@ -1,14 +1,39 @@
 indexpage:
-  title: # Unquoted string 
-  lead: # Quoted string
-  summary: # Quoted string 
-  keywords: # Unquoted comma-delimited list of keywords 
-  tiles: 
-    # Tile definition 
-    - title: # Quoted or unquoted string
-      links: 
-        # Link definition
-        - title: # Quoted or unquoted string
-          url: # Path to target
-        # Next link on this tile (title/url pair)
-    # Next tile on this page (title/links)
+  title: ONTAP alerts documentation
+  lead: View issues or potential risks in your NetApp ONTAP environment related to capacity, performance, protection, availability, and security. You can drill into alert details and view cluster information linked to ONTAP System Manager.  
+  summary: View issues or potential risks in your NetApp ONTAP environment. You can drill into alert details and view cluster information using ONTAP System Manager.  
+  keywords: bluexp, ONTAP, alerts, system manager 
+  tiles:
+  - title: Get started
+    #image: ./media/outline_directions_run_black_18dp.png
+    links:
+    - title: Learn about ONTAP alerts
+      url: /concept-alerts.html
+    - title: What's new in ONTAP alerts
+      url: /whats-new.html
+#   - title: Release notes
+#     url: /alerts-rn_overview.html
+    - title: Prerequisites
+      url: /alerts-start-prerequisites.html
+    - title: Quick start
+      url: /alerts-start-quick-start.html
+    - title: Set up ONTAP alerts
+      url: /alerts-start-setup.html
+    - title: FAQ
+      url: /alerts-faq.html 
+  - title: Use ONTAP alerts
+    links:
+    - title: View ONTAP alerts overview 
+      url: /alerts-use-overview.html
+    - title: View workload health using the Alerts list page
+      url: /alerts-use-dashboard.html
+#   - title: Monitor ONTAP alerts jobs
+#     url: /alerts-use-monitor-jobs.html 
+  - title: Blogs & community
+    links:
+    - title: NetApp Console
+      url: https://www.netapp.com/console
+    - title: NetApp Data Services
+      url: https://www.netapp.com/data-services/
+    - title: NetApp Community
+      url: https://community.netapp.com  
