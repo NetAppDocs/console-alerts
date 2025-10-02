@@ -13,7 +13,7 @@ summary: View issues or potential risks in your NetApp ONTAP environment related
 :imagesdir: ./media/
 
 [.lead]
-View issues or potential risks in your NetApp on-premises ONTAP environments using the standard NetApp Console agent. You can drill into details using ONTAP System Manager.
+View issues or potential risks in your NetApp on-premises ONTAP systems using the NetApp Console. You can drill into details using ONTAP System Manager.
 
 //NOTE: This documentation is provided as a technology preview. With this preview offering, NetApp reserves the right to modify offering details, contents, and timeline before General Availability.   
 

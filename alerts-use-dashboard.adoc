@@ -150,7 +150,7 @@ There might be a delay between an event happening and ONTAP alerts showing it.
 
 . From the Alerts list page, you can view and do any of the following: 
 
-* Change the sort order by clicking the up or down arrow for a column. 
+* Change the sort order by selecting the up or down arrow for a column. 
 * Change the filter in the columns to show only the information you want. 
 +
 TIP: For example, you might want to see only those alerts related to capacity. To do so, select the filter icon on the Impact area column, select *Capacity*, and select *Apply*.
