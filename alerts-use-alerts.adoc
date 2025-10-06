@@ -1,0 +1,36 @@
+---
+sidebar: sidebar
+permalink: alerts-use-alerts.html
+keywords: alerts, ontap, netapp, system manager, bluexp
+summary: With NetApp alerts, you can view alerts associated with your ONTAP storage system and drill into the details that are linked to ONTAP System Manager. 
+---
+
+= View alert details in your ONTAP storage system
+:hardbreaks:
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+View alerts associated with your ONTAP storage system and drill into the details. 
+
+
+== View alert details
+
+. link:alerts-start-login.html[Log in to the NetApp Console]. 
+. From the Console left navigation bar, select *Storage* > *Alerts*. 
+. From the Alerts list page, select an alert. 
++
+image:alerts-detail.png[Alert details]
+. Scroll down to find suggested corrective actions. 
+. Scroll down to find additional alerts that are related to the object on which the alert was raised. 
+
+== View details about the cluster in ONTAP System Manager
+
+. From the Alerts list page, select an alert.
+. From the alert, select the cluster name at the top of the page. 
++
+ONTAP System Manager now shows you information about the cluster. 
+//+
+//image:alerts-system-manager-cluster.png[ONTAP System Manager showing cluster information]
+
+

@@ -1,0 +1,36 @@
+---
+sidebar: sidebar
+permalink: alerts-start-login.html
+keywords: NetApp Console login, log in, ontap, netapp
+summary: Get started with ONTAP alerts by accessing ONTAP alerts in the NetApp Console.
+---
+
+= Access ONTAP alerts
+:hardbreaks:
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+You use the NetApp Console to view ONTAP alerts. 
+
+To log in to the NetApp Console, you can use your NetApp Support Site credentials or you can sign up for a NetApp cloud login using your email and a password. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html[Learn more about logging in^].
+
+.Steps
+
+. Open a web browser and go to the https://console.netapp.com/[NetApp Console^].
++ 
+The Console login page appears.  
+
+. Log in to the Console. 
+. From the Console left navigation bar, select *Storage* > *Alerts*. 
++
+The Alerts list page appears. 
++
+image:alerts-dashboard.png[ONTAP alerts list page]
+
+ 
+//* If you are a NetApp Console user with an an existing Console agent, when you select "*alerts*", a message appears about signing up. 
+
+//* If you are new to NetApp Console and haven't used any Console agent, when you select "*alerts*", a message appears about signing up. Go ahead and submit the form. NetApp will contact you about your evaluation request.
+
+

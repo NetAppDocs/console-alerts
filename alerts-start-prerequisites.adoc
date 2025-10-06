@@ -1,0 +1,37 @@
+---
+sidebar: sidebar
+permalink: alerts-start-prerequisites.html
+keywords: what are bluexp alerts requirements, bluexp alerts, alerts prerequisites, ontap alerts
+summary: Get started with ONTAP alerts by verifying support for your environment, network access, login and web browser.
+---
+
+= ONTAP alerts prerequisites
+:hardbreaks:
+:icons: font
+:imagesdir: ./media/get-started/
+
+[.lead]
+Get started with ONTAP alerts by verifying the readiness of your operational environment.
+
+To view ONTAP alerts, you'll need these prerequisites: 
+
+
+* ONTAP 9.10 and later. The on-premises system must be discovered in the NetApp Console Systems page.
+** Cluster admin ONTAP permissions
++
+The license does not need to be entered in NetApp Console digital wallet. 
+
+
+* In NetApp Console: 
+
+** A NetApp Console system with NetApp on-premises NAS or SAN storage 
+** A Console agent for an on-premises region must be set up in NetApp Console. Refer to https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html[NetApp Console documentation to configure the Console agent^].
++
+If a cluster is removed from the Console agent, the alerts related to that cluster remain for 90 days. Also, if you change the Console agent, the alerts remain associated with the original cluster and agent for 90 days. If you return to the original agent, you will again see those alerts. 
+
+** A NetApp Console organization with at least one active Console agent connecting to on-premises ONTAP clusters. All source and systems must be in the same NetApp Console organization. 
+** A NetApp Console user in that organization with Organization Admin privileges for discovering resources
+
+** https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html[Standard NetApp Console requirements^]
+
+

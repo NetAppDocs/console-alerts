@@ -1,0 +1,43 @@
+---
+sidebar: sidebar
+permalink: alerts-start-setup.html
+keywords: bluexp, alerts, ontap, netapp
+summary: To view ONTAP alerts, perform a few steps to set it up.    
+---
+
+= Set up ONTAP alerts
+:hardbreaks:
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+To use ONTAP alerts, perform a few steps to set it up.
+
+
+Before you begin, review link:alerts-start-prerequisites.html[prerequisites] to ensure that your environment is ready.
+
+Review https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html[standard NetApp Console requirements^].
+
+== Access to cluster resources
+
+
+To view the alerts, the logged-in user must be part of the NetApp Console organization and should have the required access to the cluster resource.
+
+
+== Create the Console agent
+
+You should reach out to your NetApp Sales Rep to try out or use ONTAP alerts. Then, when you use the Console agent, it will include the appropriate capabilities for ONTAP alerts.
+
+To create the Console agent in the NetApp Console, refer to the BlueXP documentation that describes https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html[how to create a Console agent^].
+
+After you set up the Console agent and add the system, wait about 15 minutes for the initial discovery.
+
+//== Set up email notifications 
+
+//You can send specific types of notifications by email so you can be informed of important system activity even when you’re not logged into NetApp Console. Emails can be sent to any users who are part of your NetApp Console account, or to any other recipients who need to be aware of certain types of system activity.
+
+//NOTE: Sending email notifications is not supported when the Console agent is installed in a site without internet access.
+
+//By default, NetApp Console Account Admins will receive emails for all "Critical" and "Recommendation" notifications. 
+
+//For instructions on configuring email settings, see https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html#set-email-notification-settings[Configure email settings in NetApp Console^]

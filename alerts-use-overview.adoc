@@ -1,0 +1,19 @@
+---
+sidebar: sidebar
+permalink: alerts-use-overview.html
+keywords: alerts, alerts, ontap, netapp
+summary: Using NetApp alerts, you can view workload health and protect workloads.
+---
+
+= View ONTAP alerts overview
+:hardbreaks:
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+View storage issues and see details with links directly to ONTAP System Manager.
+
+
+* link:alerts-use-dashboard.html[View storage issues or potential risks from the Alerts list page].
+* link:alerts-use-alerts.html[View alert details that are linked in ONTAP System Manager].
+

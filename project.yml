@@ -1,12 +1,47 @@
 settings:
-  name: "Product Name"
+  name: ONTAP alerts
   internal:
     pdf_enabled: true
+    termcheck_enabled: true
+    lipi_enabled: true
   prod:
     pdf_enabled: true
     harmony_enabled: true
+  rss_page: "whats-new.html"
 
-sidebar: 
+sidebar:
   entries:
-  - title: Legal notices
-    url: /legal-notices.html
+    - title: ONTAP alerts docs
+      url: /index.html
+    - title: Release notes
+      entries:
+        - title: What's new
+          url: /whats-new.html 
+    - title: Get started
+      entries:
+        - title: Learn about ONTAP alerts
+          url: /concept-alerts.html
+        - title: Prerequisites
+          url: /alerts-start-prerequisites.html
+        - title: Quick start
+          url: /alerts-start-quick-start.html
+        - title: Set up ONTAP alerts 
+          url: /alerts-start-setup.html
+        - title: Access ONTAP alerts
+          url: /alerts-start-login.html
+    - title: Use ONTAP alerts
+      entries:
+        - title: View ONTAP alerts overview
+          url: /alerts-use-overview.html 
+        - title: View potential risks in ONTAP storage
+          url: /alerts-use-dashboard.html
+        - title: View alerts in your storage system
+          url: /alerts-use-alerts.html
+    - title: FAQ
+      url: /alerts-faq.html
+    - title: Legal notices
+      url: /legal-notices.html
+product-family:
+  name: NetApp Console
+  repo: console-family
+
