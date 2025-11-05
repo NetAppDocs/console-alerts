@@ -14,7 +14,7 @@ summary: Learn what's new in ONTAP  alerts.
 [.lead]
 Learn what's new in ONTAP alerts.
 
-// tag::whats-new[]
+
 == 06 October 2025 
 
 include::_whatsnew/2025-10-06.adoc[]
@@ -22,4 +22,4 @@ include::_whatsnew/2025-10-06.adoc[]
 
 == 07 October 2024
 include::_whatsnew/2024-10-07.adoc[]
-// end::whats-new[]
+
