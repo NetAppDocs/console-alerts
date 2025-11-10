@@ -2,7 +2,7 @@ indexpage:
   title: ONTAP alerts documentation
   lead: View issues or potential risks in your NetApp ONTAP environment related to capacity, performance, protection, availability, and security. You can drill into alert details and view cluster information linked to ONTAP System Manager.  
   summary: View issues or potential risks in your NetApp ONTAP environment. You can drill into alert details and view cluster information using ONTAP System Manager.  
-  keywords: bluexp, ONTAP, alerts, system manager 
+  keywords: NetApp Console, ONTAP, alerts, system manager, bluexp
   tiles:
   - title: Get started
     #image: ./media/outline_directions_run_black_18dp.png
