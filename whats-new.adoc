@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: whats-new.html
 keywords: what's new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, ontap, bluexp, system manager
-summary: Learn what's new in ONTAP  alerts.
+summary: Learn what's new in ONTAP alerts.
 ---
 = What's new with ONTAP alerts
 :hardbreaks:
