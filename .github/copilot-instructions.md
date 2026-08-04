@@ -7,7 +7,6 @@ ONTAP alerts is a NetApp Console service for viewing issues and potential risks 
 
 ### Repository structure
 - `_whatsnew/` – Date-stamped include files consumed by `whats-new.adoc` for What's new entries.
-- `_include/` – Reserved include directory for shared, reusable AsciiDoc snippets. It's currently a placeholder directory.
 - `media/` – Image asset directory for screenshots used in alert list, filtering, and alert detail topics.
 
 ### Product-specific context
@@ -23,9 +22,9 @@ ONTAP alerts is a NetApp Console service for viewing issues and potential risks 
 
 - *Console agent* - connectivity component that links NetApp Console to on-premises ONTAP environments.
 - *ONTAP System Manager* - the management interface for drilling into cluster and alert details.
-- *EMS* - An acronym for vent message system that is used to send alerts about ONTAP. 
+- *EMS* - An acronym for event message system that is used to send alerts about ONTAP. 
 
 ### Typical user workflows
 
 - *Access and setup* - Access the Console, check connectivity to the Console agent, and discover ONTAP systems in the NetApp Console.
-- *Review alerts* - View ONTAP alerts (both EMS and non-EMS alerts) to stay informed about risks or potential risk in ONTAP storage system. Learn information about an alert and the cluster that generated the alert. 
+- *Review alerts* - View ONTAP alerts (both EMS and non-EMS alerts) to stay informed about risks or potential risks in ONTAP storage system. Learn information about an alert and the cluster that generated the alert. 
