@@ -5,7 +5,7 @@ keywords: NetApp Console login, log in, ontap, netapp
 summary: Get started with ONTAP alerts by accessing ONTAP alerts in the NetApp Console.
 ---
 
-= Access ONTAP alerts
+= Access ONTAP alerts in the NetApp Console
 :hardbreaks:
 :icons: font
 :imagesdir: ./media/

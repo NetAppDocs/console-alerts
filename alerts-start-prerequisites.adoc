@@ -5,7 +5,7 @@ keywords: what are bluexp alerts requirements, bluexp alerts, alerts prerequisit
 summary: Get started with ONTAP alerts by verifying support for your environment, network access, login and web browser.
 ---
 
-= ONTAP alerts prerequisites
+= Prerequisites to view ONTAP alerts in NetApp Console
 :hardbreaks:
 :icons: font
 :imagesdir: ./media/get-started/

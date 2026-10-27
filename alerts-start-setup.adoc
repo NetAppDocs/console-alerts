@@ -5,7 +5,7 @@ keywords: bluexp, alerts, ontap, netapp
 summary: To view ONTAP alerts, perform a few steps to set it up.    
 ---
 
-= Set up ONTAP alerts
+= Set up ONTAP alerts in NetApp Console
 :hardbreaks:
 :icons: font
 :imagesdir: ./media/
@@ -34,7 +34,7 @@ After you set up the Console agent and add the system, wait about 15 minutes for
 
 //== Set up email notifications 
 
-//You can send specific types of notifications by email so you can be informed of important system activity even when you’re not logged into NetApp Console. Emails can be sent to any users who are part of your NetApp Console account, or to any other recipients who need to be aware of certain types of system activity.
+//You can send specific types of notifications by email so you can be informed of important system activity even when you're not logged into NetApp Console. Emails can be sent to any users who are part of your NetApp Console account, or to any other recipients who need to be aware of certain types of system activity.
 
 //NOTE: Sending email notifications is not supported when the Console agent is installed in a site without internet access.
 
