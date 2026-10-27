@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: # no keywords
 summary: # no summary
 ---
-= Legal notices
+= Legal notices for ONTAP alerts in NetApp Console
 :icons: font
 :imagesdir: ./media/
 

@@ -5,7 +5,7 @@ keywords: how to get started with bluexp alerts, alerts quick start, netapp, ont
 summary: Get started with ONTAP alerts in a few steps.
 ---
 
-= Quick start for ONTAP alerts
+= Quick start for ONTAP alerts in NetApp Console
 :hardbreaks:
 :icons: font
 :imagesdir: ./media/

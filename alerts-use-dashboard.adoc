@@ -5,7 +5,7 @@ keywords: alerts, alerts dashboard, ontap, netapp, bluexp, cluster,capacity, pro
 summary: Get at-a-glance information about the health of your ONTAP environment. You can quickly identify ONTAP clusters that have low capacity or low performance, gauge the extent of availability, determine availability, and identify security risks.
 ---
 
-= View potential risks in ONTAP storage using the Alerts list page
+= View potential risks in ONTAP storage using the Alerts list page in NetApp Console
 :hardbreaks:
 :icons: font
 :imagesdir: ./media/

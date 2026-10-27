@@ -5,7 +5,7 @@ keywords: alerts, ontap, netapp, system manager, bluexp
 summary: With NetApp alerts, you can view alerts associated with your ONTAP storage system and drill into the details that are linked to ONTAP System Manager. 
 ---
 
-= View alert details in your ONTAP storage system
+= View alert details for your ONTAP storage system in NetApp Console
 :hardbreaks:
 :icons: font
 :imagesdir: ./media/
